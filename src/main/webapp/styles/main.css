@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f7f9fa;
+    margin: 0;
+    padding: 20px 40px;
+    color: #222;
+}
+
+.murach-logo-img {
+    width: 110px;
+    height: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
+h1.survey-title {
+    color: #0b666a;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+}
+
+p.survey-intro {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #222;
+    margin: 0 0 24px 0;
+}
+
+h2.section-heading {
+    color: #0b666a;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0 12px 0;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 14px;
+    width: 130px;
+    color: #111;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 250px;
+    padding: 4px 8px;
+    border: 1px solid #7b8a8b;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus {
+    outline: none;
+    border-color: #0b666a;
+    box-shadow: 0 0 3px rgba(11, 102, 106, 0.4);
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.contact-group {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.contact-group label {
+    margin-right: 8px;
+}
+
+.contact-group select {
+    padding: 3px 6px;
+    border: 1px solid #7b8a8b;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.btn-submit {
+    padding: 4px 16px;
+    font-size: 13px;
+    background-color: #efefef;
+    border: 1px solid #767676;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #e5e5e5;
+}
+
+.btn-submit:active {
+    background-color: #d8d8d8;
+}
